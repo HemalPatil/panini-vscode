@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Panini",
+	"patterns": [{
+		"include": "#keywords"
+	},{
+		"include": "#strings"
+	},{
+		"include": "#comments"
+	}, {
+		"include": "#numbers"
+	}, {
+		"include": "#constants"
+	}, {
+		"include": "#variables"
+	}],
+	"repository": {
+		"variables": {
+			"patterns": [{
+				"name": "variable.language.this.panini",
+				"match": "\\bस्वयं\\b"
+			}, {
+				"name": "variable.name.panini",
+				"match": "[_\\$A-Za-zअ-ह][_\\$A-Za-zँ-्0-9]*"
+			}]
+		},
+		"constants": {
+			"patterns": [{
+				"name": "constant.language.boolean.true.panini",
+				"match": "\\bसत्य\\b"
+			}, {
+				"name": "constant.language.boolean.false.panini",
+				"match": "\\bअसत्य\\b"
+			}, {
+				"name": "constant.language.null.panini",
+				"match": "\\bरिक्त\\b"
+			}, {
+				"name": "constant.language.undefined.panini",
+				"match": "\\bअज्ञात\\b"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.panini",
+				"match": "\\b(ॐ|वर्ग|का_विस्तार_करता_है|स्थायी|निर्माता|अगर|वरना|जब_तक|दोहराना_रोको|और|या|चर|अचर|फलन|लौटो|लौटाओ|नया)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.single.panini",
+			"begin": "'",
+			"end": "'",
+			"patterns": [{
+				"name": "constant.character.escape.panini",
+				"match": "\\\\."
+			}]
+		},
+		"numbers": {
+			"name": "constant.numeric.panini",
+			"match": "\\b\\d+\\b"
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.double-slash.panini",
+				"begin": "//",
+				"end": "\n"
+			}, {
+				"name": "comment.block.panini",
+				"begin": "/\\*",
+				"end": "\\*/"
+			}]
+		}
+	},
+	"scopeName": "source.panini"
+}

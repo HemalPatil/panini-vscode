@@ -1,0 +1,25 @@
+{
+    "name": "panini-vscode",
+    "displayName": "Panini",
+    "description": "Panini Syntax Highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "panini",
+            "aliases": ["Panini", "panini"],
+            "extensions": [".ण"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "panini",
+            "scopeName": "source.panini",
+            "path": "./syntaxes/panini.tmLanguage.json"
+        }]
+    }
+}
