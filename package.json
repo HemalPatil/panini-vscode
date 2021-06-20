@@ -1,5 +1,13 @@
 {
     "name": "panini-vscode",
+    "publisher": "hemalpatil",
+    "author": {
+        "name": "Hemal Patil",
+        "url": "https://github.com/HemalPatil"
+    },
+    "repository": {
+        "url": "https://github.com/HemalPatil"
+    },
     "displayName": "Panini",
     "description": "Panini Syntax Highlighting",
     "version": "0.0.1",
