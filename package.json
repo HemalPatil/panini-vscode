@@ -21,7 +21,7 @@
         "languages": [{
             "id": "panini",
             "aliases": ["Panini", "panini"],
-            "extensions": [".ण"],
+            "extensions": [".ण", "panini"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
