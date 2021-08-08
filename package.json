@@ -20,7 +20,7 @@
     "contributes": {
         "languages": [{
             "id": "panini",
-            "aliases": ["Panini", "panini"],
+            "aliases": ["पाणिनी", "panini"],
             "extensions": [".ण", "panini"],
             "configuration": "./language-configuration.json"
         }],
