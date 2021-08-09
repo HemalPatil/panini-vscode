@@ -1,5 +1,5 @@
 {
-    "name": "panini-vscode",
+    "name": "@panini-lang/vscode-extension",
     "publisher": "hemalpatil",
     "author": {
         "name": "Hemal Patil",
@@ -11,7 +11,7 @@
     },
     "displayName": "Panini",
     "description": "Panini Syntax Highlighting",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.57.0"
     },
