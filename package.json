@@ -1,5 +1,5 @@
 {
-    "name": "@panini-lang/vscode-extension",
+    "name": "panini-vscode",
     "publisher": "hemalpatil",
     "author": {
         "name": "Hemal Patil",
